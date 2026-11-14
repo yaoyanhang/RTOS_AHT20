@@ -1,0 +1,42 @@
+# ============================================
+#  Keil MDK / ARMCC 编译输出（不入库）
+# ============================================
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/RTOS_AHT20/
+MDK-ARM/DebugConfig/
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.lst
+*.map
+*.axf
+*.elf
+*.sct
+*.iex
+*.build_log.htm
+*.uvguix.*
+*.uvoptx
+*.bak
+*.scvd
+*.htm
+JLinkLog.txt
+RTE/
+
+# ============================================
+#  编辑器 / 系统临时文件
+# ============================================
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+
+# ============================================
+#  Python 缓存（报告生成脚本用）
+# ============================================
+__pycache__/
+*.pyc
